@@ -1,3 +1,5 @@
+Controle via teclado para o projeto [ROSI CHALLENGE](https://github.com/filRocha/rosiChallenge-sbai2019).
+
 # Instalação
 Coloque os arquivos nas pastas de mesmo nome em: ~/catkin_ws/src/rosi_defy/
 
@@ -26,4 +28,3 @@ Home/End : Controle rotacional das esteiras traseiras.
 
 
 
-[ROSI CHALLENGE](https://github.com/filRocha/rosiChallenge-sbai2019).
