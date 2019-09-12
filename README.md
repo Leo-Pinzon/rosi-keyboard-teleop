@@ -13,8 +13,17 @@ rostopic echo /keyboard
 
 # Utilização
 ← ↑ ↓ → : Controle das rodas e esteiras para locomoção.
+
 Page Up/Down : Controle rotacional das esteiras dianteiras.
+
 Home/End : Controle rotacional das esteiras traseiras.
+
 [espaço] : Reseta todos os comandos.
+
+
+
+
+
+
 
 [ROSI CHALLENGE](https://github.com/filRocha/rosiChallenge-sbai2019).
