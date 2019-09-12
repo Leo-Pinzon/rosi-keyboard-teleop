@@ -1,1 +1,11 @@
+<launch>
 
+	<!-- running the joystick node -->
+	<node name="key_node" pkg="rosi_defy" type="key_node.py" respawn="true" />
+
+	<!-- running the rosi joystick example node -->
+	<node name="rosi_key" pkg="rosi_defy" type="rosi_key.py" respawn="true"/>
+
+	<rosparam command="load" file="$(find rosi_defy)/config/simulation_parameters.yaml" />
+
+</launch>
