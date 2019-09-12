@@ -9,8 +9,8 @@ from rosi_defy.msg import KeyArray
 
 class RosiNodeClass():
 
-    # atributos da classe
-    max_translational_speed = 5 # in [m/s]
+    #TODO: Verificar estes valores
+    max_translational_speed = 8 # in [m/s]
     max_rotational_speed = 10 # in [rad/s]
     max_arms_rotational_speed = 0.52 # in [rad/s]
 

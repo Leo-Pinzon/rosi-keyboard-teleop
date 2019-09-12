@@ -50,24 +50,24 @@ class KeyboardPublisher:
             if command_array[2] == 1:
                 command_array[2] = 0
             else:
-                command_array[2] = 2
+                command_array[2] = 1
         if key_press == Key.page_down:
-            if command_array[2] == -2:
+            if command_array[2] == -1:
                 command_array[2] = 0
             else:
-                command_array[2] = -2
+                command_array[2] = -1
 
         #Esteiras trasieras
         if key_press == Key.home:
-            if command_array[3] == 2:
+            if command_array[3] == 1:
                 command_array[3] = 0
             else:
-                command_array[3] = 2
+                command_array[3] = 1
         if key_press == Key.end:
-            if command_array[3] == -2:
+            if command_array[3] == -1:
                 command_array[3] = 0
             else:
-                command_array[3] = -2
+                command_array[3] = -1
 
 
         self.key_publisher.publish(command_array)
